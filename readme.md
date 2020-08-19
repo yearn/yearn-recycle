@@ -19,11 +19,9 @@ Then you can simply call it to receive yUSD back.
 recycle.recycle()
 ```
 
-Zap! ⚡️
-
 ## Deployments
 
-TBD.
+Ethereum Mainnet: `0x78e307F6e8584DaA0D85aDD918c0e3e4dD469A9C`
 
 ## Audits
 
