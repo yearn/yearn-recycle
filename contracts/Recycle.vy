@@ -54,11 +54,10 @@ def recycle():
     deposit_amounts: uint256[4] = [dai_balance, usdc_balance, usdt_balance, tusd_balance]
     yCurveDeposit(ydeposit).add_liquidity(deposit_amounts, 0)
     
-    ycrv_balance: uint256 = ERC20(ycrv).balanceOf(self)
-    if ERC20(ycrv).allowance(self, yvault) == 0:
-        ERC20(ycrv).approve(yvault, MAX_UINT256)
-    
+    ycrv_balance: uint256 = ERC20(ycrv).balanceOf(self)       
     if ycrv_balance > 0:
+        if ERC20(ycrv).allowance(self, yvault) == 0:
+            ERC20(ycrv).approve(yvault, MAX_UINT256)
         yVault(yvault).deposit(ycrv_balance)
     
     yusd_balance: uint256 = ERC20(yusd).balanceOf(self)
