@@ -37,8 +37,7 @@ $ brownie run recycle --network mainnet
 - Add an ability to recycle custom amounts with `recycle_exact(dai, usdc, usdt, tusd, ycrv)`
 
 Reviewed by:
-
-TBD
+- @iamdefinitelyahuman
 
 ### v0.1.0
 `0x78e307F6e8584DaA0D85aDD918c0e3e4dD469A9C`
