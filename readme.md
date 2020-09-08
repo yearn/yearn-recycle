@@ -51,7 +51,8 @@ Reviewed by:
 
 ## Frontends
 
-TBD
+Code at: https://github.com/x48-crypto/yearn-recycle-ui
+Deployed at: https://vaults.finance/
 
 ### Integration caveats
 
